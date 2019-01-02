@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.fenqing168.school</groupId>
+    <artifactId>school-manager</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+
+    <modules>
+        <module>school-manager-pojo</module>
+        <module>school-manager-dao</module>
+        <module>school-manager-interface</module>
+        <module>school-manager-service</module>
+        <module>school-manager-web</module>
+    </modules>
+
+    <parent>
+        <relativePath>../school-parent/pom.xml</relativePath>
+        <groupId>com.fenqing168.school</groupId>
+        <artifactId>school-parent</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+
+    <dependencies>
+
+
+
+    </dependencies>
+
+</project>
