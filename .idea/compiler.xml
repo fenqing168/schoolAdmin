@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="school-common" />
+        <module name="school-manager-dao" />
+        <module name="school-manager-interface" />
+        <module name="school-manager-pojo" />
+        <module name="school-manager-service" />
+        <module name="school-manager-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="school-common" target="1.7" />
+      <module name="school-manager" target="1.5" />
+      <module name="school-manager-dao" target="1.5" />
+      <module name="school-manager-interface" target="1.7" />
+      <module name="school-manager-pojo" target="1.7" />
+      <module name="school-manager-service" target="1.7" />
+      <module name="school-manager-web" target="1.7" />
+      <module name="school-parent" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

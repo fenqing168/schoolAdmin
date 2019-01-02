@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/school-common/school-common.iml" filepath="$PROJECT_DIR$/school-common/school-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/school-manager/school-manager.iml" filepath="$PROJECT_DIR$/school-manager/school-manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/school-manager/school-manager-dao/school-manager-dao.iml" filepath="$PROJECT_DIR$/school-manager/school-manager-dao/school-manager-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/school-manager/school-manager-interface/school-manager-interface.iml" filepath="$PROJECT_DIR$/school-manager/school-manager-interface/school-manager-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/school-manager/school-manager-pojo/school-manager-pojo.iml" filepath="$PROJECT_DIR$/school-manager/school-manager-pojo/school-manager-pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/school-manager/school-manager-service/school-manager-service.iml" filepath="$PROJECT_DIR$/school-manager/school-manager-service/school-manager-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/school-manager/school-manager-web/school-manager-web.iml" filepath="$PROJECT_DIR$/school-manager/school-manager-web/school-manager-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/school-parent/school-parent.iml" filepath="$PROJECT_DIR$/school-parent/school-parent.iml" />
+    </modules>
+  </component>
+</project>
