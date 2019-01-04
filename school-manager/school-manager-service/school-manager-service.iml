@@ -19,6 +19,8 @@
     <orderEntry type="library" scope="TEST" name="Maven: org.hamcrest:hamcrest-core:1.3" level="project" />
     <orderEntry type="module" module-name="school-manager-pojo" />
     <orderEntry type="module" module-name="school-manager-interface" />
+    <orderEntry type="module" module-name="school-common" />
+    <orderEntry type="library" name="Maven: commons-codec:commons-codec:1.11" level="project" />
     <orderEntry type="module" module-name="school-manager-dao" />
     <orderEntry type="library" name="Maven: com.alibaba:druid:1.1.12" level="project" />
     <orderEntry type="library" name="Maven: org.mybatis:mybatis-spring:1.3.2" level="project" />
@@ -34,5 +36,6 @@
     <orderEntry type="library" name="Maven: org.springframework:spring-core:5.1.3.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-jcl:5.1.3.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.aspectj:aspectjweaver:1.9.2" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: javax.servlet:javax.servlet-api:4.0.1" level="project" />
   </component>
 </module>

@@ -12,7 +12,7 @@
 
     <!--扫描controller-->
     <context:component-scan base-package="com.fenqing168.school.controller"/>
-
+    <context:component-scan base-package="com.fenqing168.school.exception"/>
     <!-- 开启注解驱动-->
     <mvc:annotation-driven/>
 

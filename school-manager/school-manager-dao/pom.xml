@@ -29,6 +29,12 @@
             <version>${project.version}</version>
         </dependency>
 
+        <dependency>
+            <groupId>com.fenqing168.school</groupId>
+            <artifactId>school-common</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+
         <!-- https://mvnrepository.com/artifact/com.alibaba/druid -->
         <dependency>
             <groupId>com.alibaba</groupId>

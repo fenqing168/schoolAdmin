@@ -3,6 +3,16 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
 
+  <!--项目页面的baseUrl-->
+  <context-param>
+    <param-name>baseUrl</param-name>
+    <param-value>http://localhost:80/</param-value>
+  </context-param>
+  
+  <listener>
+    <listener-class>com.fenqing168.school.listener.WebPathListener</listener-class>
+  </listener>
+
   <!--spring-->
   <context-param>
     <param-name>contextConfigLocation</param-name>
