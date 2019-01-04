@@ -2,6 +2,7 @@ package com.fenqing168.school.controller;
 
 import com.fenqing168.school.utils.ImageUtil;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
@@ -11,6 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.awt.image.BufferedImage;
 import java.io.IOException;
 
+@CrossOrigin(origins = {"*"}, maxAge = 3600)
 @Controller
 @RequestMapping("/sys/util")
 public class UtilController {

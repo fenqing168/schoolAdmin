@@ -3,6 +3,7 @@ package com.fenqing168.school.controller;
 import com.fenqing168.school.service.SysUserService;
 import com.fenqing168.school.utils.R;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -12,6 +13,7 @@ import javax.servlet.http.HttpSession;
 /**
  * 系统用户控制器
  */
+@CrossOrigin(origins = {"*"}, maxAge = 3600)
 @RestController
 @RequestMapping("/sys/user")
 public class SysUserController {
